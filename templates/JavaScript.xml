@@ -1,0 +1,55 @@
+<templateSet group="JavaScript">
+  <template name="cn" value="console.log($END$);" description="console.log()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ce" value="console.error($END$);" description="console.error()" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="isCallback" value="if (callback &amp;&amp; (typeof callback === 'function')) {&#10;    callback($END$);&#10;}" description="check is callback a function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="amdDefine" value="'Backbone',&#10;'jQuery',&#10;'Underscore'," description="define amd modules Backbone, jQuery, Underscore" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="amdCallback" value="Backbone, $, _," description="amd modules: Backbone, $, _" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it('$END$', function (done) {&#10;    &#10;});" description="mocha it block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cb" value="function (err, $RESULT$) {&#10;    if (err) {&#10;        return cb(err);&#10;    }&#10;&#10;    cb(null, $RESULT$$END$);&#10;}" description="insert cb" toReformat="true" toShortenFQNames="true">
+    <variable name="RESULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="callback" value="function (err, $RESULT$) {&#10;    if (err) {&#10;        return callback(err);&#10;    }&#10;&#10;    callback(null, $RESULT$$END$);&#10;}" description="insert callback function - &gt;if (err) { return callback(err); ..." toReformat="true" toShortenFQNames="true">
+    <variable name="RESULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="amap" value="async.map($ITEMS$, function ($ITEM$, cb) {&#10;        $END$&#10;        async.setImmediate(function () {&#10;            cb(null, $ITEM$);&#10;        });&#10;    }, function (err, results) {&#10;        if (err) {&#10;            return callback(err);&#10;        }&#10;    &#10;        callback(null, results);&#10;    });" description="async.map" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cv" value="console.log('&gt;&gt;&gt; $VALUE$', $VALUE$);" description="log value via console.log('&gt;&gt;&gt; value', value);" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,40 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Encoding">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="EslintConfiguration">
+        <custom-configuration-file used="true" path="C:\Users\Vostro\Documents\ThinkMobilesProjects\es-lint-thinkmobiles\index.js" />
+        <additional-rules-dir value="C:\Users\Vostro\Documents\ThinkMobilesProjects\es-lint-thinkmobiles\rules" />
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <profile version="1.0">
+          <option name="myName" value="Project Default" />
+          <inspection_tool class="Eslint" enabled="true" level="ERROR" enabled_by_default="true" />
+        </profile>
+        <option name="PROJECT_PROFILE" value="Project Default" />
+        <option name="USE_PROJECT_PROFILE" value="true" />
+        <version value="1.0" />
+      </component>
+      <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+        <OptionsSetting value="true" id="Add" />
+        <OptionsSetting value="true" id="Remove" />
+        <OptionsSetting value="true" id="Checkout" />
+        <OptionsSetting value="true" id="Update" />
+        <OptionsSetting value="true" id="Status" />
+        <OptionsSetting value="true" id="Edit" />
+        <ConfirmationsSetting value="0" id="Add" />
+        <ConfirmationsSetting value="0" id="Remove" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="last_opened_file_path" value="$USER_HOME$/Documents/Gruop 3" />
+        <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+        <property name="settings.editor.splitter.proportion" value="0.2" />
+        <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+        <property name="js.eslint.eslintPackage" value="C:\Users\Vostro\AppData\Roaming\npm\node_modules\eslint" />
+        <property name="js.eslint.nodeInterpreter" value="project" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
