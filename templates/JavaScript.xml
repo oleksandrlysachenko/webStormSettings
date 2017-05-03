@@ -4,9 +4,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ce" value="console.error($END$);" description="console.error()" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="ce" value="console.error($END$);" description="console.error()" toReformat="false" toShortenFQNames="true" />
   <template name="isCallback" value="if (callback &amp;&amp; (typeof callback === 'function')) {&#10;    callback($END$);&#10;}" description="check is callback a function" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
