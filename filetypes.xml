@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="java" type="EJS" />
+      <mapping pattern="test" type="JavaScript" />
       <mapping pattern=".covignore" type="PLAIN_TEXT" />
       <mapping pattern="createPass.pug" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
