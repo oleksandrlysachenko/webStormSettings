@@ -90,6 +90,10 @@
           <option name="url" value="http://git.thinkmobiles.com:9000/web/Erp_Trading.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Stoware/stoware-mvp-server.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Vostro\Documents\ThinkMobilesProjects" />
