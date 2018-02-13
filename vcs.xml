@@ -122,8 +122,12 @@
           <option name="url" value="http://git.thinkmobiles.com:9000/web/graficity_api.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/oleksandrlysachenko/sampleAPI.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Vostro\Documents\ThinkMobilesProjects" />
+    <option name="cloneParentDir" value="C:\Users\Vostro\Documents\testProjects" />
   </component>
 </application>
