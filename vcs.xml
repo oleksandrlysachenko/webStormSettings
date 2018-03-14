@@ -130,8 +130,12 @@
           <option name="url" value="http://github.com/" />
           <option name="userName" value="oleksandrlysachenko" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/IncubatorLLC/dashboard-integration.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Vostro\Documents\testProjects" />
+    <option name="cloneParentDir" value="C:\Users\Vostro\Documents\codemotion" />
   </component>
 </application>
