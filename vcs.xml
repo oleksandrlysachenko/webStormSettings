@@ -134,6 +134,14 @@
           <option name="url" value="https://github.com/IncubatorLLC/dashboard-integration.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/IncubatorLLC/ledesconversion-backend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/IncubatorLLC/ledesconversion-frontend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Vostro\Documents\codemotion" />
