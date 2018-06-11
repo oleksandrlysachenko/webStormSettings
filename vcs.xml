@@ -142,8 +142,16 @@
           <option name="url" value="https://github.com/IncubatorLLC/ledesconversion-frontend.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.salondev.net" />
+          <option name="userName" value="aleksandr.Lysochenko@salonultimate.com" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.salondev.net/bookedby/bookedby-server" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Vostro\Documents\codemotion" />
+    <option name="cloneParentDir" value="$USER_HOME$/Documents/work" />
   </component>
 </application>
