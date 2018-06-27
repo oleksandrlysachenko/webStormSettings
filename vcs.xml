@@ -150,8 +150,16 @@
           <option name="url" value="https://gitlab.salondev.net/bookedby/bookedby-comms-bridge" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.codemotion.eu" />
+          <option name="userName" value="la@codemotion.eu" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.codemotion.eu/upwork/eclinic.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Vostro\Documents\codemotion" />
+    <option name="cloneParentDir" value="$USER_HOME$/Documents/work" />
   </component>
 </application>
