@@ -16,7 +16,7 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://github.com" />
-          <option name="userName" value="oleksandrlysachenko" />
+          <option name="userName" value="la@codemotion.eu" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="https://github.com/thinkmobiles/mgovernment" />
@@ -156,6 +156,10 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://git.codemotion.eu/upwork/eclinic.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/invotra/invotra-api-nodejs" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
