@@ -174,8 +174,12 @@
           <option name="url" value="https://github.com/invotra/invotra-mobile.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/invotra/invotra-frisby-tests.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="/media/alex/52e37612-3b47-4dc4-922a-31b4354f02ee/work" />
+    <option name="cloneParentDir" value="$USER_HOME$/Documents/work" />
   </component>
 </application>
