@@ -1,9 +1,4 @@
 <application>
-  <component name="GithubAccounts">
-    <account id="00d6437e-e7c9-4569-a4ac-be6b25a05d6f" name="alexlysachenko">
-      <server host="github.com" />
-    </account>
-  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="la@codemotion.eu" />
     <option name="AUTH_TYPE" value="BASIC" />
