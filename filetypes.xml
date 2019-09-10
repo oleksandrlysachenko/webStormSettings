@@ -12,6 +12,7 @@
       <mapping pattern="database" type="PLAIN_TEXT" />
       <mapping pattern=".env.development.local" type="PLAIN_TEXT" />
       <mapping pattern=".doNotDelete" type="PLAIN_TEXT" />
+      <mapping pattern="mediainfo" type="PLAIN_TEXT" />
       <mapping pattern="createPass.pug" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="rmd" type="PLAIN_TEXT" />
