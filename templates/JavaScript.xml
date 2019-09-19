@@ -50,4 +50,19 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="todo" value="// TODO addend on $DATE$ by $USER$: $todo$" description="Todo comment" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="console" value="console.log('\x1b[33m%s\x1b[0m', '$name$: ', $value$);&#10;$END$" description="Custome console loggin" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
