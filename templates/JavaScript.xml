@@ -58,7 +58,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="console" value="console.log('\x1b[33m%s\x1b[0m', '$name$: ', $value$);&#10;$END$" description="Custome console loggin" toReformat="false" toShortenFQNames="true">
+  <template name="console" value="console.log('\x1b[34m%s\x1b[32m%s', '$name$: ', $value$);&#10;$END$" description="Custome console loggin" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
