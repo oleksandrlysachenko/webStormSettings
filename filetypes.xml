@@ -7,10 +7,11 @@
       <mapping pattern=".dontDelete" type="PLAIN_TEXT" />
       <mapping pattern=".covignore" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern="getSingleTransaction" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping pattern="getSingleTransaction" type="PLAIN_TEXT" />
       <mapping pattern="database" type="PLAIN_TEXT" />
+      <mapping pattern="run_transaction_seed" type="PLAIN_TEXT" />
       <mapping pattern=".env.development.local" type="PLAIN_TEXT" />
       <mapping pattern=".doNotDelete" type="PLAIN_TEXT" />
       <mapping pattern="mediainfo" type="PLAIN_TEXT" />
