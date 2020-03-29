@@ -59,4 +59,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="cd" value="console.log('\x1b[36m%s\x1b[1m\x1b[32m%s\x1b[0m', '$name$: ', ':');&#10;console.dir($value$, {depth: null});&#10;$END$" description="Custome console dir logging" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
