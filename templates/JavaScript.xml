@@ -75,4 +75,15 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="testapi" value="const jwt = require('jsonwebtoken');&#10;const createJWKSMock = require('mock-jwks').default;&#10;const supertest = require('supertest');&#10;&#10;const app = require('$appPath$');&#10;const prepareData = require('$prepareDataPath$');&#10;const clear = require('$clearPath$'); &#10;&#10;const request = supertest(app);&#10;&#10;jwt.verify = jest.fn();&#10;&#10;describe('$api$ API: $method$ $endpoint$', () =&gt; {&#10;    const jwks = createJWKSMock('https://auth.brighteon.com/');&#10;&#10;    beforeAll();&#10;    &#10;    beforeEach(() =&gt; {&#10;        jwks.start();&#10;    });&#10;    &#10;    afterEach(() =&gt; {&#10;        jwks.stop();&#10;    });&#10;    &#10;    afterAll(async () =&gt; {&#10;        await clear();&#10;        jest.resetAllMocks();&#10;    });&#10;})&#10;$END$" description="jest test api" toReformat="false" toShortenFQNames="true">
+    <variable name="appPath" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="prepareDataPath" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="clearPath" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="api" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="endpoint" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
