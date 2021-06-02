@@ -2,24 +2,25 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="java" type="EJS" />
+      <mapping pattern="dataParse" type="JSON" />
       <mapping pattern="test" type="JavaScript" />
       <mapping pattern="books" type="JavaScript" />
       <mapping pattern=".dontDelete" type="PLAIN_TEXT" />
       <mapping pattern=".covignore" type="PLAIN_TEXT" />
+      <mapping pattern="getSingleTransaction" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern="todo" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
-      <mapping pattern="getSingleTransaction" type="PLAIN_TEXT" />
       <mapping pattern="database" type="PLAIN_TEXT" />
       <mapping pattern="run_transaction_seed" type="PLAIN_TEXT" />
-      <mapping pattern=".env.production" type="PLAIN_TEXT" />
-      <mapping pattern=".env.staging" type="PLAIN_TEXT" />
+      <mapping pattern="_mediainfo" type="PLAIN_TEXT" />
       <mapping pattern=".env.development.local" type="PLAIN_TEXT" />
       <mapping pattern=".doNotDelete" type="PLAIN_TEXT" />
       <mapping pattern=".gitignor" type="PLAIN_TEXT" />
+      <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern="mediainfo" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
-      <mapping pattern="_mediainfo" type="PLAIN_TEXT" />
+      <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern="createPass.pug" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="rmd" type="PLAIN_TEXT" />
